@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0ch
+}
+
+/* menu / navigation; */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand img {
+    height: 55px;
+    padding-left: 20px;
+}
+
+/* .navbar-nav {
+    margin-left: auto;
+} */
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    color: #555555 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-nav li a:hover {
+    color: #ff9000 !important;
+    transition: 0.5s;
+}
+
+/* slider / carousel */
+#slider {
+    width: 100%;
+    position: relative;
+}
+
+.carousel-inner {
+    height: 90vh;
+    background-size: cover;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    /* untuk mengatur default dari bawah elemen */
+    bottom: initial !important;
+}
+
+.carousel-caption h5 {
+    font-size: 3em;
+}
+
+/* about us */
+#about {
+    padding: 50px 0;
+    color: #555555;
+}
+
+.progress {
+    border-radius: 25px !important;
+    margin-bottom: 35px;
+}
+
+.progress-bar {
+    background-color: #ff9000 !important;
+    border-radius: 25px;
+}
+
+.about-progress p {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+/* services */
+#service {
+    padding: 50px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#service h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#service h1:after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    height: 5px;
+    width: 180px;
+    margin: 15px auto;
+}
+
+#service .icon {
+    font-size: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+#service p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.service-hover .col-lg-3:hover {
+    background-color: #ff9000;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* #service .col-lg-3:hover {
+    background-color: #ff9000;
+    transition: 1s;
+    cursor: pointer;
+} */
+
+/* teams */
+#team {
+    padding: 50px 0;
+    color: #555555;
+}
+
+/* untuk pengulangan h1 */
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    background-color: #ff9000;
+    height: 5px;
+    width: 180px;
+    margin: 15px auto;
+}
+
+.profile-box {
+    margin-top: 25px;
+}
+
+.profile-box .imgbox img {
+    filter: grayscale(1);
+}
+
+.profile-box .imgbox img:hover {
+    filter: grayscale(0);
+}
+
+.profile-box .fa-brands {
+    color: #ff9000;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.profile-box ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.profile-box .imgbox {
+    display: block;
+    position: relative;
+}
+
+.profile-box .imgbox ul {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 0;
+    opacity: 0;
+}
+
+.profile-box .imgbox:hover ul {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.profile-box h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff9000;
+    margin-top: 15px;
+}
+
+.profile-box h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.profile-box p {
+    font-size: 12px;
+}
+
+/* promo */
+#promo {
+    padding: 50px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+}
+
+#promo .container a:hover {
+    letter-spacing: 7px;
+    transition: 0.5s;
+}
+
+/* price */
+#price {
+    padding: 50px 0;
+    background-color: #efefef;
+}
+
+#price .full-price {
+    background-color: #fff;
+    margin: 15px auto;
+}
+
+.full-price .price-head {
+    background-color: #ff9000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.full-price .price-head h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.full-price .price-head p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.full-price .price-head span {
+    font-size: 16px;
+}
+
+.price-body {
+    padding: 0 10px;
+}
+
+.price-body ul li {
+    list-style-type: none;
+    border-bottom: 2px solid #efefef;
+    padding: 15px 10px;
+}
+
+.price-body .fa-circle-check {
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.price-body .fa-circle-xmark {
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.price-button {
+    text-align: center;
+    padding: 15px 15px 30px;
+}
+
+.price-button .buy-btn {
+    background-color: #ff9000;
+    display: inline-block;
+    padding: 15px 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.price-button .buy-btn:hover {
+    background-color: green !important;
+    transition: 0.5s;
+}
+
+
+/* Testimonials */
+#testi {
+    padding: 50px 0;
+}
+
+#testi .row {
+    margin-top: 85px;
+}
+
+.testibox {
+    background-color: #efefef;
+    padding: 70px 10px 10px;
+    position: relative;
+}
+
+.testibox:hover {
+    box-shadow: 0 2px 15px #555555;
+    transition: 0.5s;
+}
+
+.testibox img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testibox blockquote {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.testibox blockquote::before,
+.testibox blockquote::after {
+    content: '"';
+    font-size: 2em;
+    color: #ff9000;
+}
+
+.testibox h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9000;
+}
+
+.testibox span {
+    font-size: 16px;
+    color: #555555;
+}
+
+/* contact us */
+#contact {
+    padding: 50px 0;
+    background-color: #efefef;
+}
+
+#contact .form-control {
+    border: none;
+}
+
+#contact .info-box {
+    background-color: #fff;
+    margin: 25px 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#contact .info-box .fa-solid,
+#contact .info-box .fa-brands {
+    color: #ff9000;
+    margin: 3px;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: #ff9000 !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer .fa-heart {
+    color: red;
+    margin: 3px;
+}
+
+/* mobile resize */
+@media(max-width:991px) {
+
+    /* carousel */
+    .carousel-inner {
+        height: 50vh;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5em;
+    }
+
+    /* about us */
+    .about-progress {
+        padding-top: 50px;
+    }
+
+    /* testimonials */
+    .mobile-spacing {
+        /* margin-top: 85px; */
+        padding-top: 85px;
+    }
+}
+
+@media(max-width:480px) {
+
+    /* carousel */
+    .carousel-inner {
+        height: 30vh;
+    }
+}
