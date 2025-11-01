@@ -1,7 +1,7 @@
 ## 🌐 `Website Sample`
 
 ![Language](https://img.shields.io/badge/HTML%2FCSS%2FJS-Project-blue?style=for-the-badge&logo=html5&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Prototype-yellow?style=for-the-badge)
 ![Type](https://img.shields.io/badge/Type-Front--End%20Demo-lightgrey?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Responsive%20Layout%20%26%20Styling-orange?style=for-the-badge)
 
