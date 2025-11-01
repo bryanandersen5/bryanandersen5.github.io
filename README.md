@@ -39,5 +39,14 @@
 
 ### 📁 `File Overview`
 ```
-
+📦 Seat_Reservation/
+ ┣ 📁 css
+   ┣ 📄 style.css
+ ┣ 📁 img
+   
+ ┣ 📁 js
+ ┣ 📁 lib
+ ┣ 📄 contact.html
+ ┣ 📄 index.html
+ ┗ 📄 README.md
 ```
