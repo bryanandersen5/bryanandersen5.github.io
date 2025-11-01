@@ -85,6 +85,10 @@
    ┣ 📄 onetwocodedark.png
    ┣ 📄 onetwocodelight.png
  ┣ 📁 js
+   ┣ 📁 aos-2
+   ┣ 📁 css
+     ┣ 📄 style.css
+   ┣ 📁 smooth-scroller-master
  ┣ 📁 lib
  ┣ 📄 contact.html
  ┣ 📄 index.html
